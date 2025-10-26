@@ -1,0 +1,42 @@
+# ================= Step 0: Install required libraries =================
+!pip install opencv-python pillow
+
+# ================= Step 1: Upload Video =================
+from google.colab import files
+uploaded = files.upload()  # A prompt will appear to select your video
+video_path = list(uploaded.keys())[0]  # Get the uploaded video file name
+
+# ================= Step 2: Extract Frames =================
+import cv2
+import os
+from PIL import Image
+
+output_folder = "frames"
+os.makedirs(output_folder, exist_ok=True)
+
+cap = cv2.VideoCapture(video_path)
+count = 1
+
+while True:
+    ret, frame = cap.read()  # Read one frame
+    if not ret:
+        break  # Stop if no more frames
+    frame_path = f"{output_folder}/frame_{count:04d}.png"
+    cv2.imwrite(frame_path, frame)  # Save frame as PNG
+    count += 1
+
+cap.release()
+print(f"Extracted {count-1} frames.")
+
+# ================= Step 3: Zip Frames =================
+import zipfile
+
+zip_filename = "frames.zip"
+with zipfile.ZipFile(zip_filename, "w") as zipf:
+    for filename in os.listdir(output_folder):
+        zipf.write(os.path.join(output_folder, filename))
+
+print("ZIP file created!")
+
+# ================= Step 4: Download the ZIP =================
+files.download(zip_filename)
