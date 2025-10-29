@@ -20,8 +20,7 @@ const Home = () => {
 
   useEffect(() => {
     const scrollEl = mainRef.current;
-    if (!scrollEl) return;
-
+ 
     let locoScroll;
 
     // 🌀 Initialize Locomotive Scroll
@@ -82,13 +81,21 @@ const Home = () => {
     const imageSeq = { frame: 0 };
 
     const files = (index) =>
-      `/image/frames/frame_${String(index + 1).padStart(4, "0")}.png`;
+      `/image/framesA/frame_${String(index + 1).padStart(4, "0")}.webp`;
 
-    for (let i = 0; i < totalFrames; i++) {
-      const img = new Image();
-      img.src = files(i);
-      images.push(img);
-    }
+   const preloadFrames = (start, end) => {
+  for (let i = start; i < end; i++) {
+    const img = new Image();
+    img.src = files(i);
+    images[i] = img;
+  }
+};
+ // ✅ preload only first few frames initially
+  preloadFrames(0, 10);
+
+  // ✅ load the rest in the background
+  setTimeout(() => preloadFrames(10, totalFrames), 1000);
+
 
     const render = () => {
       const frameIndex = Math.min(imageSeq.frame, images.length - 1);

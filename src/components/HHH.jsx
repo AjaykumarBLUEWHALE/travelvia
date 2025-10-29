@@ -32,7 +32,7 @@ const HHH = () => {
             <div className="parent7 ml-0 sm:mt-0 mt-9">
               <img
                loading="lazy" 
-                className="h-[170px] mt-[-10px] w-50 p-2 rounded-2xl"
+                className="h-[170px] mt-[-10px] object-cover w-50 p-2 rounded-2xl"
                 src="https://cdn.prod.website-files.com/6713971095c4a7cab5d924ee/672b9a1566cd01e4423a0643_latest-blog.avif"
                 alt="villa"
               />
