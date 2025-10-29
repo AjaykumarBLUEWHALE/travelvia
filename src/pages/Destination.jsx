@@ -419,6 +419,7 @@ const images = [
           {filteredImages.map((n, i) => (
             <div className="card relative overflow-hidden" key={i}>
               <img
+               loading="lazy" 
                 src={n.url}
                 alt={n.place}
                 draggable={false}

@@ -26,7 +26,7 @@ A safari is much more than just a vacation — it's an adventure that takes you 
 
 
   <div className="scrolling-image-column">
-    <img src="https://cdn.prod.website-files.com/67192adf47c16a59cea7d889/671e9ac7ff78b91a83dcc7f6_9.avif" alt="Feature 1"/>
+    <img  loading="lazy"  src="https://cdn.prod.website-files.com/67192adf47c16a59cea7d889/671e9ac7ff78b91a83dcc7f6_9.avif" alt="Feature 1"/>
 
 
   </div>

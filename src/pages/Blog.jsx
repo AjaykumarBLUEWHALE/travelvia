@@ -130,6 +130,7 @@ const images =[{
       {images.map((n, i) => (
   <div key={i} className="mySlides fade absolute w-screen h-full top-0 left-0">
     <img
+     loading="lazy" 
       src={n.url}
       alt={n.caption || `slide-${i}`}
       className="w-screen h-full object-cover zoom-in-out-box brightness-50"
@@ -193,6 +194,7 @@ Read it Now
           {filteredImages.map((n, i) => (
             <div className="card relative overflow-hidden" key={i}>
               <img
+               loading="lazy" 
                 src={n.url}
                 alt={n.place}
                 draggable={false}

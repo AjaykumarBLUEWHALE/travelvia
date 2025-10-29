@@ -143,6 +143,7 @@ txt:"earning"
 <section className="relative w-full h-screen menu">
   {/* Background image */}
   <img
+   loading="lazy"
     className="w-full scale-x-[-1] h-full object-cover"
     src="https://cdn.pixabay.com/photo/2021/06/21/08/09/aircraft-6352940_1280.jpg"
     alt="tail"
@@ -191,7 +192,7 @@ txt:"earning"
    Apply Now
   </button>
 </div>
-<img className='w-full' src="https://cdn.prod.website-files.com/6713971095c4a7cab5d924ee/67640e85df5efbb671d5a129_how_it_work.avif" alt="greenry" />
+<img  loading="lazy" className='w-full' src="https://cdn.prod.website-files.com/6713971095c4a7cab5d924ee/67640e85df5efbb671d5a129_how_it_work.avif" alt="greenry" />
   </div>
 </section>
 <section className="relative p-4 sm:w-[80%] sm:ml-auto  menu">
@@ -205,7 +206,7 @@ significant payouts.</p></div>
 <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 p-4 ">
 {social.map((s, index) => (
   <div key={index} className=" p-4 ">
-  <div>  <img
+  <div>  <img  loading="lazy"
       className="bg-black text-white w-16 h-16 p-4 rounded-full text-3xl font-bold"
       src={s.url}
       alt=""
@@ -220,7 +221,7 @@ significant payouts.</p></div>
 </section>
 <section className="relative w-full h-screen menu">
   {/* Background image */}
-  <img
+  <img  loading="lazy"
     className="w-full  h-full object-cover"
     src="https://cdn.pixabay.com/photo/2017/01/06/17/28/road-1958388_1280.jpg "
     alt="road girl"

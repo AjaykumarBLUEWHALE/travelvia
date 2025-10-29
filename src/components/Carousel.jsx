@@ -93,6 +93,7 @@ const Carousel = () => {
     {/* Image background */}
     <img
       src={n.url}
+       loading="lazy" 
       alt={n.alt}
       draggable={false}
       className="object-cover brightness-75 h-full w-full rounded"

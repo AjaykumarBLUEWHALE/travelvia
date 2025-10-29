@@ -35,6 +35,7 @@ const Footer = () => {
 
     <div className="mt-10 flex flex-col md:flex-row items-start gap-6">
       <img
+       loading="lazy" 
         className="w-40 h-40 object-cover border border-white rounded"
         src="https://cdn.prod.website-files.com/6713971095c4a7cab5d924ee/679a0fe7d28ead2c237c00c9_QR%20Code.avif"
         alt="QR"

@@ -110,7 +110,7 @@ const Article = () => {
   <div className="w-[340px] h-[300px] card relative overflow-hidden" key={n}>
     {/* Image background */}
     <div class="parent7 ml-0 sm:mt-0 mt-9 ">
-<img className="h-[270px] mt-[-10px] w-[190px]  p-2 rounded-2xl" src={n.url}  alt={n.alt}
+<img  loading="lazy"  className="h-[270px] mt-[-10px] w-[190px] object-cover  p-2 rounded-2xl" src={n.url}  alt={n.alt}
       draggable={false} />
 <div className="sm:w-[150px] w-40 text-[15px] h-[150px]  bg-transparent text-black rounded-2xl p-2">
 <h1 className="opacity-50 text-[12px]">{n.data}</h1>
