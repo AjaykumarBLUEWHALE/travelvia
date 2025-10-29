@@ -76,12 +76,12 @@ const Home = () => {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
-    const totalFrames = 122;
+    const totalFrames = 121;
     const images = [];
     const imageSeq = { frame: 0 };
 
     const files = (index) =>
-      `/image/framesA/frame_${String(index + 1).padStart(4, "0")}.webp`;
+      `/image/framesC/frame_${String(index + 1).padStart(4, "0")}.webp`;
 
    const preloadFrames = (start, end) => {
   for (let i = start; i < end; i++) {
