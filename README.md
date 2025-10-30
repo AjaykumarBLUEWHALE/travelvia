@@ -93,11 +93,3 @@ Ajay Kumar
 
 <a href="https://travelvia-chi.vercel.app/" target='_blank'>🌐 Live Website</a>
 
-
----
-
-✅ **Instructions:**  
-Just copy everything inside the box above and paste it directly into your `README.md` file — GitHub will render it beautifully (with emojis, headings, code blocks, etc.).  
-
-Would you like me to add **preview images** and show how to embed them (so your README looks more visual)?
-
