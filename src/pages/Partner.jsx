@@ -195,7 +195,7 @@ txt:"earning"
 <img  loading="lazy" className='w-full' src="https://cdn.prod.website-files.com/6713971095c4a7cab5d924ee/67640e85df5efbb671d5a129_how_it_work.avif" alt="greenry" />
   </div>
 </section>
-<section className="relative p-4 sm:w-[80%] sm:ml-auto  menu">
+<section className="relative p-4  ipad3 sm:w-[80%] sm:ml-auto  menu">
  <div> <h1 className="text-3xl sm:text-7xl mb-4 sm:w-[40%]">What Makes Travel  Next Level Different?
 </h1>
 <p className="text-xl sm:text-3xl  sm:w-[40%]">Unlike other affiliate programs, our
@@ -252,7 +252,7 @@ significant payouts.</p></div>
 </section>
 
 <section>
-  <div className='grid sm:mt-12 mt-18  sm:grid-cols-2 gap-0 w-full sm:h-screen'>
+  <div className='grid sm:mt-12 mt-18 ipad4  sm:grid-cols-2 gap-0 w-full sm:h-screen'>
 <div className='w-full p-4  menu'>
 <h1 className='text-8xl'>faq</h1>
 </div>

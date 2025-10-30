@@ -406,3 +406,55 @@ img {vertical-align: middle;}
     scale: 150%;
   }
 }
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  
+  /* 📲 iPad Portrait styles here */
+  .ipad{
+ 
+    left: 10px;
+  }
+.ipad-txt{
+ 
+  gap: 170px;
+}
+.ipad2{
+
+    left: 20%;
+}
+.ipad-img{
+  
+  left: 0px;
+}
+.ipad3{
+
+  width: 90%;
+}
+.ipad4{
+  margin-bottom: -310px;
+}
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1) {
+   .ipad{
+ 
+    left: 10px;
+    padding: 10px;
+  }
+  .ipad2{
+  
+    left: 30%;
+}
+.ipad-img{
+
+  left: -10px;
+}
+  /* 💻 iPad Landscape styles here */
+}

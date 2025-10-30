@@ -1,4 +1,5 @@
 import React from 'react'
+import myImg from '../assets/qr.jpeg';
 import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
@@ -37,7 +38,7 @@ const Footer = () => {
       <img
        loading="lazy" 
         className="w-40 h-40 object-cover border border-white rounded"
-        src="https://cdn.prod.website-files.com/6713971095c4a7cab5d924ee/679a0fe7d28ead2c237c00c9_QR%20Code.avif"
+        src={myImg}
         alt="QR"
       />
       <p className="max-w-md leading-relaxed opacity-90">

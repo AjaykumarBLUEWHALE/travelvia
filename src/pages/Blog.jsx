@@ -124,16 +124,16 @@ const images =[{
 }]
   return (
  <div className="overflow-hidden">
-     <div className="w-screen h-screen overflow-hidden relative">
+     <div className="w-screen  h-screen overflow-hidden relative">
       {/* Slideshow Container */}
-      <div className="slideshow-container w-[100vw] h-full relative sm:left-[-183px]">
+      <div className="slideshow-container w-[100vw] h-full relative sm:left-[-183px] ipad-img">
       {images.map((n, i) => (
   <div key={i} className="mySlides fade absolute w-screen h-full top-0 left-0">
     <img
      loading="lazy" 
       src={n.url}
       alt={n.caption || `slide-${i}`}
-      className="w-screen h-full object-cover zoom-in-out-box brightness-50"
+      className="w-screen  h-full object-cover zoom-in-out-box brightness-50"
     />
 
     <div data-aos="fade-up" className="absolute bottom-25 text-start left-1/2 transform -translate-x-1/2 w-[80vw]  text-white font-semibold">
@@ -198,7 +198,7 @@ Read it Now
                 src={n.url}
                 alt={n.place}
                 draggable={false}
-                className="object-cover rounded brightness-80 hover:brightness-90 transition-all duration-300 cursor-pointer"
+                className="object-cover  rounded brightness-80 hover:brightness-90 transition-all duration-300 cursor-pointer"
               />
               <div className="absolute flex   top-0 left-0 w-50/60 p-3 text-white">
                 <button className="bg-stone-200 rounded-l p-2 text-[10px] text-black border-gray-400 border-r">{n.id2}</button>

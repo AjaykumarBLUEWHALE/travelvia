@@ -5,7 +5,7 @@ const HHH = () => {
     <div>
         <div
         id="page1"
-        className="menu left-2.5 sm:left-50"
+        className="menu ipad left-2.5 sm:left-50"
         style={{
           position: "absolute",
           top: "150px",
@@ -13,11 +13,11 @@ const HHH = () => {
           zIndex: 10,
         }}
       >
-        <div className="parent6 gap-0">
+        <div className="parent6   gap-0">
           <h1 className="text-2xl sm:p-2 px-4  sm:text-6xl  sm:mb-40">
             Enter a world of <br /> discoveries
           </h1>
-    <div className="flex flex-col  sm:mt-0 -mt-19 sm:flex-row justify-between gap-4 sm:gap-[600px] items-start w-full px-4">
+    <div className="flex flex-col  ipad-txt sm:mt-0 -mt-19 sm:flex-row justify-between gap-4 sm:gap-[600px] items-start w-full px-4">
   {/* LEFT SECTION */}
   <div className="sm:w-[45%] w-full px-2">
     <p className="text-sm sm:text-[10px] w-full sm:w-[150px]">
@@ -55,7 +55,7 @@ const HHH = () => {
       </div>
       <div
         id="page2"
-        className="menu left-[10px] sm:left-50"
+        className="menu ipad left-[10px] sm:left-50"
         style={{
           position: "absolute",
           top: "150vh",
@@ -70,7 +70,7 @@ New Adventures</h1>
       </div>
       <div
         id="page3"
-          className="menu left-[10px] sm:left-120"
+          className="menu ipad2 left-[10px] sm:left-120"
         style={{
           position: "absolute",
           top: "300vh",
