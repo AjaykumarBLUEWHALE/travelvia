@@ -2,7 +2,7 @@
 
 ## 🚀 Overview
 <a href="https://travelvia-chi.vercel.app/" target="_blank">
-  <img src="./public/preview.png" alt="Travelvia Thumbnail"/>
+  <img src="./public/download.png" alt="Travelvia Thumbnail"/>
 </a>
 
 **Travelvia** is a **modern, interactive travel website** that brings destinations to life through stunning visuals, scroll-triggered animations, and an elegant design powered by **React**, **Tailwind CSS**, and **GSAP**.  
