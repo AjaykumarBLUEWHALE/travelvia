@@ -8,7 +8,7 @@ const Footer = () => {
   {/* LEFT SECTION */}
   <div className="w-full md:w-1/2 border-white/50 sm:border-b md:border-b-0 md:border-r px-8 flex flex-col justify-between">
     <div>
-      <h1 className="text-3xl mb-60 mt-4">Travel destinations</h1>
+      <h1 className="text-3xl mb-10 sm:mb-60 mt-4">Travel destinations</h1>
       <p className="max-w-md leading-relaxed opacity-90">
         Discover the world's most fascinating places, from hidden gems to popular hotspots. 
         Browse our carefully curated selection of destinations that inspire adventure and wanderlust. 

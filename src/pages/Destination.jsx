@@ -374,7 +374,7 @@ const images = [
   return (
     <div className="bg-transparent w-full h-screen overflow-x-hidden">
       <div className="relative top-[20%] px-10 sm:px-15">
-        <h1 className="text-3xl sm:text-8xl pb-4 sm:py-5 menu">Destinations</h1>
+        <h1 className="text-6xl sm:text-8xl pb-4 sm:py-5 menu">Destinations</h1>
       </div>
 
       {/* ===== Horizontal Scroll List ===== */}

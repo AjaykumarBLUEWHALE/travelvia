@@ -32,7 +32,7 @@ A safari is much more than just a vacation — it's an adventure that takes you 
   </div>
 
 </section>
-<section className='p-8 m-auto w-[50%] text-[15px] sm:text-[35px] menu 0'>
+<section className='p-8 m-auto sm:w-[50%] text-[15px] sm:text-[35px] menu 0'>
   Every Trip revealed not only
 breathtaking landscapes, rather
 also stories, the our Understanding

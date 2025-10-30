@@ -32,11 +32,11 @@ const HHH = () => {
             <div className="parent7 ml-0 sm:mt-0 mt-9">
               <img
                loading="lazy" 
-                className="h-[170px] mt-[-10px] object-cover w-50 p-2 rounded-2xl"
+                className="h-[150px] -mt-2.5 object-cover w-50 p-2 rounded-xl"
                 src="https://cdn.prod.website-files.com/6713971095c4a7cab5d924ee/672b9a1566cd01e4423a0643_latest-blog.avif"
                 alt="villa"
               />
-              <div className="sm:w-50 w-40 text-[15px] h-[150px] bg-amber-50 text-black rounded-2xl p-2">
+              <div className="sm:w-50 w-40 text-[15px] h-[150px] bg-amber-50 text-black rounded p-2">
                 <h1>10 luxurious holiday destinations</h1>
                 <h1>read more</h1>
                 <h1 className="mt-2">travel guides</h1>

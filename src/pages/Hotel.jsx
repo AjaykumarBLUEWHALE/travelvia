@@ -57,7 +57,7 @@ const Hotel = () => {
   return (
     <div className="bg-transparent w-full h-screen overflow-x-hidden">
       <div className="relative top-[20%] mb-[200px] px-3 sm:px-6 ">
-                  <h1 className='  text-3xl sm:text-8xl pb-4 sm:px-8 menu'>Hotels</h1>
+                  <h1 className='  text-6xl sm:text-8xl px-4 sm:px-8 menu'>Hotels</h1>
           <div className="grid sm:grid-cols-4  gap-4 p-4 sm:p-8">
           {images.map((n, i) => (
             <div className="card relative overflow-hidden" key={i}>
