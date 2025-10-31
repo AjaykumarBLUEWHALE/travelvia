@@ -437,6 +437,17 @@ img {vertical-align: middle;}
   margin-bottom: -310px;
 }
 }
+/* Mobile Landscape */
+@media only screen 
+  and (max-width: 767px) 
+  and (orientation: landscape) {
+  
+  /* Your styles for mobile landscape go here */
+ .ipad-img{
+  
+  left: 0px;
+}
+}
 
 @media only screen 
   and (min-device-width: 768px)
