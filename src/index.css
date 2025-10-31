@@ -109,6 +109,29 @@ canvas {
   }
 }
 
+@keyframes zoomInFromTop {
+  0% {
+    transform: translateY(-100%) scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+.nomenu{
+  font-family: sans-serif;
+}
+@keyframes zoomOutToTop {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%) scale(0.8);
+    opacity: 0;
+  }
+}
 
 /*carousel*/
 .carousel {

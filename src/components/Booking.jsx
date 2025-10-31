@@ -1,9 +1,10 @@
 import React from 'react'
 import Carousel from './Carousel'
 import Read from './Read'
-  import { useState } from "react";
+
 import TourSlider from './TourSlider';
 import BookingSidebar from './BookingSidebar';
+import useBookingLogic from "../hooks/useBookingLogic"; // ✅ import the hook
 const Booking = () => {
 
 const date=[
@@ -45,37 +46,16 @@ const date=[
     month:"Octber ",price:"70,000"
   },
 ]
-  
-const [counts, setCounts] = useState({
-  Adult: 0,
-  Child: 0,
-  Infant: 0,
-});
-
-const increment = (optionLabel) => {
-  setCounts(prev => ({
-    ...prev,
-    [optionLabel]: prev[optionLabel] + 1
-  }));
-};
-
-const decrement = (optionLabel) => {
-  setCounts(prev => ({
-    ...prev,
-    [optionLabel]: prev[optionLabel] > 0 ? prev[optionLabel] - 1 : 0
-  }));
-};
-
-
-  const [open, setOpen] = useState(false);
- 
-
-  const options = [
-    { label: "Adult",sub:"sub", },
-    { label: "Child", sub:"sub", },
-    { label: "Infant",sub:"sub", },
-  ];
-  const [value, setValue] = useState("");
+  const {
+    counts,
+    increment,
+    decrement,
+    options,
+    isopen,
+    setisopen,
+    value,
+    setValue,
+  } = useBookingLogic();
 
   return (
     <div>
@@ -112,18 +92,18 @@ const decrement = (optionLabel) => {
  <div className="relative w-full h-full px-2 py-1 sm:p-4">
       {/* Dropdown button */}
       <button
-        onClick={() => setOpen(!open)}
+        onClick={() => setisopen(!isopen)}
         className="w-full rounded flex justify-between items-center bg-white"
       >
         <div className="flex flex-col text-left">
           <span className="font-medium">Number of passengers</span>
           <span className="text-sm text-gray-500">Business</span>
         </div>
-        <span>{open ? "▲" : "▼"}</span>
+        <span>{isopen ? "▲" : "▼"}</span>
       </button>
 
       {/* Dropdown menu */}
-    {open && (
+    {isopen && (
   <div className="absolute w-full ml-[-15px] px-2 mt-7 bg-white rounded">
     {options.map((option) => (
       <div
