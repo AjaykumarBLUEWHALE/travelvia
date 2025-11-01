@@ -59,7 +59,7 @@ const Sidebar = () => {
          
             </div>
      <div className='mt-0'>
-        <div class="border flex justify-between   space-y-4 p-3 ">
+        <div class=" border-t border-b flex justify-between   space-y-4 p-3 ">
 <div>
  <a href="/search">
 <img  loading="lazy" 

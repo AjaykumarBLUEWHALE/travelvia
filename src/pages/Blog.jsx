@@ -157,7 +157,7 @@ const images =[{
     <div className="absolute bottom-10 right-6 text-[10px] text-white brightness-90 sm:text-sm font-semibold">
            25 OCT 2025
           </div>
- <div className="absolute bottom-59 sm:bottom-45 left-10 sm:left-35 brightness-60 text-white text-sm font-semibold">
+ <div className="absolute bottom-62 sm:bottom-45 left-10 sm:left-35 brightness-60 text-white text-sm font-semibold">
           <h1>&#9679;Travel tips</h1>
           </div>
           
