@@ -136,7 +136,7 @@ const images =[{
       className="w-screen  h-full object-cover zoom-in-out-box brightness-50"
     />
 
-    <div  className="absolute bottom-25 text-start left-1/2 transform -translate-x-1/2 sm:-translate-x-2/3 w-[80vw]  text-white font-semibold">
+    <div  className="absolute bottom-40 sm:bottom-25 text-start left-1/2 transform -translate-x-1/2 sm:-translate-x-2/3 w-[80vw]  text-white font-semibold">
       <span className="sm:text-3xl" >{n.caption}</span>
     </div>
   </div>
@@ -157,11 +157,11 @@ const images =[{
     <div className="absolute bottom-10 right-6 text-[10px] text-white brightness-90 sm:text-sm font-semibold">
            25 OCT 2025
           </div>
- <div className="absolute bottom-49 sm:bottom-45 left-10 sm:left-35 brightness-60 text-white text-sm font-semibold">
+ <div className="absolute bottom-59 sm:bottom-45 left-10 sm:left-35 brightness-60 text-white text-sm font-semibold">
           <h1>&#9679;Travel tips</h1>
           </div>
           
-   <div className="absolute bottom-14 sm:bottom-10 left-10 sm:left-35 text-white text-[10px] font-semibold">
+   <div className="absolute bottom-28 sm:bottom-10 left-10 sm:left-35 text-white text-[10px] font-semibold">
         <button className="rounded hover:text-white border-white hover:bg-transparent hover:border bg-white text-black w-[140px] h-[45px]  ">
 Read it Now
       </button>
