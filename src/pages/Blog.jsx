@@ -126,9 +126,9 @@ const images =[{
  <div className="overflow-hidden">
      <div className="w-screen  h-screen overflow-hidden relative">
       {/* Slideshow Container */}
-      <div className="slideshow-container w-full h-full relative  ipad-img">
+      <div className="slideshow-container w-full h-full relative ">
       {images.map((n, i) => (
-  <div key={i} className="mySlides fade absolute w-screen h-full top-0 left-0">
+  <div key={i} className="mySlides fade absolute w-screen h-full ">
     <img
      loading="lazy" 
       src={n.url}
@@ -136,7 +136,7 @@ const images =[{
       className="w-screen  h-full object-cover zoom-in-out-box brightness-50"
     />
 
-    <div  className="absolute bottom-40 sm:bottom-25 text-start left-1/2 transform -translate-x-1/2 sm:-translate-x-2/3 w-[80vw]  text-white font-semibold">
+    <div  className="absolute bottom-44 sm:bottom-22 left-10 sm:left-0 text-[10px] text-white brightness-90 sm:text-sm font-semibold">
       <span className="sm:text-3xl" >{n.caption}</span>
     </div>
   </div>
@@ -157,7 +157,7 @@ const images =[{
     <div className="absolute bottom-10 right-6 text-[10px] text-white brightness-90 sm:text-sm font-semibold">
            25 OCT 2025
           </div>
- <div className="absolute bottom-62 sm:bottom-45 left-10 sm:left-35 brightness-60 text-white text-sm font-semibold">
+ <div className="absolute bottom-62 lg:bottom-45 left-10 sm:left-35 brightness-60 text-white text-sm font-semibold">
           <h1>&#9679;Travel tips</h1>
           </div>
           
