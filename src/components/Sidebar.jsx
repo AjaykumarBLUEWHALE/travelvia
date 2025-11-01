@@ -67,7 +67,7 @@ const Sidebar = () => {
 alt="search" className='p-2' /></a></div>
 <div className='text-5xl'><a href="/search">Search</a></div>
 </div>
-<div className=' flex justify-between space-y-0  text-5xl'>
+<div className=' flex justify-between space-y-0 border-b text-5xl'>
  
 <div className=' text-5xl p-3 w-1/2 border-r '><a href="/login">log in</a></div>
 <div className=' text-5xl p-3 '><a href="/sign-up">sign in</a></div>
