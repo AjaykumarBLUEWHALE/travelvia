@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import TourSlider from './TourSlider';
 import useBookingLogic from "../hooks/useBookingLogic";
+import Navbar from "./Navbar";
 const AeroBookingIcon = () => {
+ 
     const navIcon =[
         {
         label:"origin",
@@ -64,7 +66,7 @@ const AeroBookingIcon = () => {
           <div
             onClick={handleToggle}
             style={{ background: imgColor() }}
-            className="flex cursor-pointer z-50 justify-center border-2 m-auto py-3 border-white bg-white/30 backdrop-blur-sm shadow-lg rounded-2xl w-[100px] gap-2"
+            className="flex cursor-pointer z-60 justify-center border-2 m-auto py-3 border-white bg-white/30 backdrop-blur-sm shadow-lg rounded-2xl w-[100px] gap-2"
           >
             {showIcons ? (
               <>
@@ -89,7 +91,7 @@ const AeroBookingIcon = () => {
               </>
             ) : (
               // ❌ Show X instead of icons
-              <div className="text-xl  font-bold text-black">X</div>
+              <div   className="text-xl font-bold">X</div>
             )}
           </div>
         </div>
@@ -102,7 +104,7 @@ const AeroBookingIcon = () => {
             setOpen(false);
             setShowIcons(true); // 👈 reset icons when overlay clicked
           }}
-          className="fixed inset-0 bg-black/30 z-30"
+          className="fixed inset-0 bg-black/30 "
         ></div>
       )}
 
