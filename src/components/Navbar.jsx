@@ -58,7 +58,7 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <header className="w-full bg-transparent">
-        <nav className="max-w-8xl uppercase mx-auto py-2 px-4 sm:px-6 lg:px-8">
+        <nav className="max-w-8xl uppercase mx-auto py-0 px-0 sm:px-6 lg:px-8">
           <div className="parent">
             
             {/* DIV 1 */}
@@ -93,8 +93,8 @@ export default function Navbar() {
             </div>
 
             {/* DIV 3 */}
-            <div style={{ color: getColor() }} className="div3 transition-colors duration-500 ease-in-out z-40 mr-[-20px] bg-transparent py-3">
-              <div className="flex sm:justify-between gap-2 p-2 ml-[20px] text-[13px]">
+            <div style={{ color: getColor() }} className="div3 transition-colors duration-500 ease-in-out z-40  bg-transparent py-3">
+              <div className="flex sm:justify-between gap-2 p-2 ml-10 text-[13px]">
                 <div className="text-base hidden md:flex font-medium">english</div>
                 
                 {/* MENU button */}
