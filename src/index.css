@@ -20,6 +20,9 @@
 .menu{
       font-family: 'FsR', sans-serif;
 }
+html {
+  scrollbar-gutter: stable;
+}
 .parent7 {
 display: grid;
 grid-template-columns: repeat(2, 1fr);
@@ -95,8 +98,8 @@ canvas {
 }
 /* Hero.css or global CSS */
 .hero-container {
-  position: relative; /* ensures z-index stacking works */
-  z-index: 10;        /* higher than canvas (-1) */
+  position: relative;
+  z-index: 10;       
 }
 @keyframes zoomInFromRight {
   0% {
