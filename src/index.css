@@ -423,10 +423,10 @@ img {vertical-align: middle;}
 
 @keyframes zoom-in-zoom-out {
   0% {
-    scale: 100%
+    scale: 130%
   }
   50% {
-    scale: 150%;
+    scale: 200%;
   }
 }
 @media only screen 

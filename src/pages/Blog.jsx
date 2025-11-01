@@ -126,7 +126,7 @@ const images =[{
  <div className="overflow-hidden">
      <div className="w-screen  h-screen overflow-hidden relative">
       {/* Slideshow Container */}
-      <div className="slideshow-container w-[100vw] h-full relative sm:left-[-183px] ipad-img">
+      <div className="slideshow-container w-full h-full relative  ipad-img">
       {images.map((n, i) => (
   <div key={i} className="mySlides fade absolute w-screen h-full top-0 left-0">
     <img
