@@ -136,7 +136,7 @@ const images =[{
       className="w-screen  h-full object-cover zoom-in-out-box brightness-50"
     />
 
-    <div  className="absolute bottom-25 text-start left-1/2 transform -translate-x-2/3 w-[80vw]  text-white font-semibold">
+    <div  className="absolute bottom-25 text-start left-1/2 transform -translate-x-1/2 sm:-translate-x-2/3 w-[80vw]  text-white font-semibold">
       <span className="sm:text-3xl" >{n.caption}</span>
     </div>
   </div>
