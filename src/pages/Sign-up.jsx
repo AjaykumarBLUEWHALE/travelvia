@@ -10,8 +10,8 @@ const SignUp = () => {
   muted
   playsInline   className="w-full h-[100vh] object-cover"></video>
       </div>
-      <div className='bg-black w-[100vw] sm:h-screen h-[160vh] sm:w-full   text-white'>
-        <div className='relative m-8 px-8 top-[100px] sm:top-[20%]'>
+      <div className='bg-black w-screen sm:h-screen h-[160vh] sm:w-full   text-white'>
+        <div className='relative m-8 px-0 top-[100px] sm:top-[20%]'>
   <div className='flex gap-6 p-2 text-5xl w-full'>
   <Link to="/login" className='opacity-70'>&#9679;Log in</Link>
      <Link to="/sign-up" >&#9679;Sign up</Link>

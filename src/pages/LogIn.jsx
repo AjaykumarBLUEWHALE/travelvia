@@ -16,8 +16,8 @@ const LogIn = () => {
   ></video>
 </div>
 
-      <div className='bg-black  w-[100vw] h-screen sm:w-full text-white'>
-        <div className='relative m-8 px-8 top-[20%]'>
+      <div className='bg-black  w-screen h-screen sm:w-full text-white'>
+        <div className='relative m-8 px-o top-[20%]'>
   <div className='flex gap-6 p-2 text-5xl w-full'>
   <Link to="/login">&#9679;Log in</Link>
      <Link to="/sign-up" className='opacity-70'>&#9679;Sign up</Link>

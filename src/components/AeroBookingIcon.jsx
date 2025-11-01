@@ -70,7 +70,7 @@ const AeroBookingIcon = () => {
           >
             {showIcons ? (
               <>
-                {/* ✈️ Plane + | + 🏨 Hotel icons */}
+     
                 <div>
                   <img
                     loading="lazy"
@@ -91,7 +91,7 @@ const AeroBookingIcon = () => {
               </>
             ) : (
               // ❌ Show X instead of icons
-              <div   className="text-xl font-bold">X</div>
+              <div   className="text-xl">X</div>
             )}
           </div>
         </div>
