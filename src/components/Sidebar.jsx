@@ -14,7 +14,7 @@ const Sidebar = () => {
 
             {/* Sidebar menu items */}
             
-            <div className="flex flex-col mt-17  space-y-0 px-4 ">
+            <div className="flex flex-col mt-23  space-y-0 px-4 ">
               <div className="px-3 py-0 text-5xl opacity-50 "><a href="/">Home</a></div>
               <div className="px-3 py-0 text-5xl  "><a href="/destinations">Destinations</a></div>
               <div className="px-3 py-0 text-5xl  "><a href="/hotel">Hotel</a></div>
@@ -58,7 +58,7 @@ const Sidebar = () => {
 
          
             </div>
-     <div className='mt-6'>
+     <div className='mt-0'>
         <div class="border flex justify-between   space-y-4 p-3 ">
 <div>
  <a href="/search">
