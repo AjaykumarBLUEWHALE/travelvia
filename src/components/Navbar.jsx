@@ -98,7 +98,7 @@ export default function Navbar() {
                 <div className="text-base hidden md:flex font-medium">english</div>
                 
                 {/* MENU button */}
-                <div className="md:hidden flex px-6">
+                <div className="md:hidden flex ">
                   <button
                     onClick={() => setOpen(!open)}
                     className="text-base font-medium z-50"
