@@ -117,7 +117,7 @@ txt:"earning"
     loop
     muted
     playsInline
-    className="w-full h-[100vh] object-cover"
+    className="w-full h-screen object-cover"
   ></video>
 <div className="absolute top-48  left-0 w-full flex justify-between px-8 underline text-white text-xl font-semibold">
   <h1>Elevate Your Influence</h1>
