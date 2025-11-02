@@ -57,16 +57,16 @@ const Footer = () => {
   </div>
 </div>
 
-<div className='flex p-4 flex-col md:flex-row w-full h-auto bg-black text-white menu'>
+<div className='flex px-4 flex-col md:flex-row w-full h-full bg-black text-white menu'>
  <div>
         
         <h1 className='text-white'>
             
-            <div className='grid  cursor-pointer sm:grid-cols-4 grid-cols-2 sm:gap-80 p-4  text-start text-[10px] sm:text-[12px]'>
+            <div className='grid  cursor-pointer sm:grid-cols-4 grid-cols-2 sm:gap-80 p-4  text-start text-[15px] sm:text-[12px]'>
                 <div className=' uppercase '>
-                    <h1 className='text-[20px] opacity-75'>discover</h1>
+                    <h1 className='text-[30px] opacity-75'>discover</h1>
                  <div className='grid grid-cols-2  '>
-                    <ul>
+                    <ul className='text-sm '>
                 <Link to="/">  <li>Home</li></Link>
                  <Link to="/blog">
                    <li>blog</li></Link>
@@ -81,20 +81,20 @@ const Footer = () => {
                    
                 </div>
                 <div> <h1 className='text-[20px] opacity-75 '>travel</h1>
-                <ul className=' '>
+                <ul className='text-sm '>
                   <li><Link to='/destinations'>Travel destinations</Link></li>
                    <li><Link to='/hotel'>hotels</Link></li>
                   </ul>
                 </div>
                   <div> <h1 className='text-[20px] opacity-75 '>languages</h1>
-                <ul className=''>
+                <ul className='text-sm '>
                   <li><a >english</a></li>
                    <li><a >hindi</a></li>
 
                    </ul>
                 </div>
             <div> <h1 className='text-[20px] opacity-75 '>social media</h1>
-                <ul className=' '>
+                <ul className=' text-sm '>
                   <li><a target='blank'>pinterst</a></li>
                    <li><a href="https://www.instagram.com/zackzyrical/" target='blank'>instagram</a></li>
 <li><a href="https://www.youtube.com/@Zackzyrical" target='blank'>youtube</a></li>
@@ -103,11 +103,11 @@ const Footer = () => {
                    </ul>
                 </div>
             </div>
-            <div className='grid sm:grid-cols-4  sm:gap-80  grid-cols-2 text-center mt-59  bottom-0 relative'>
-              <p className='text-[10px] opacity-75  mb-4'>2025 Ajay <br/> ALL RIGHTS RESERVED</p>
-<a to="/tos"><p className='text-[10px]  mb-4 cursor-pointer'>TERMS & CONDITIONS</p></a>
-<a to="/privacy"><p className='text-[10px]  mb-4 cursor-pointer'>PRIVACY POLICY</p></a>
-<p className='text-[10px]  mb-4 cursor-pointer'>MADE BY AJAY KUMAR</p>
+            <div className='grid sm:grid-cols-4 justify-start sm:gap-80 px-3  grid-cols text-start mt-65    relative'>
+              <p className='text-[15px] opacity-75  sm:mb-4'>2025 Ajay  ALL RIGHTS RESERVED</p>
+<a to="/tos"><p className='text-[15px]  sm:mb-4 cursor-pointer'>TERMS & CONDITIONS</p></a>
+<a to="/privacy"><p className='text-[15px]  sm:-4 cursor-pointer'>PRIVACY POLICY</p></a>
+<p className='text-[15px]  mb-4 cursor-pointer'>MADE BY AJAY KUMAR</p>
             </div>
         </h1>
     </div>
