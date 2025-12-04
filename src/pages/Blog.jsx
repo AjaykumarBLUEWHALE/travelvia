@@ -107,21 +107,24 @@ const image = [
 
     showSlides();
   }, []);
-const images =[{
-  url:"https://images.pexels.com/photos/356966/pexels-photo-356966.jpeg",
-  caption:"The most exotic countries in the world: an adventure beyond the familiar",
-  alt:'destination'
-},
-{
-  url:"https://cdn.pixabay.com/photo/2020/07/23/21/34/arc-de-triomphe-5432392_1280.jpg",
-  caption:"Traveling to Bali: top 10 hotels and activities",
-  alt:'destination'
-},
-{
-  url:"https://cdn.pixabay.com/photo/2020/11/19/15/32/sculpture-5758884_1280.jpg",
-  caption:"The most beautiful places in cultural experience: discover the best travel destinations on CHECK24",
-  alt:'destination'
-}]
+const images = [
+  {
+    url: "https://images.pexels.com/photos/356966/pexels-photo-356966.jpeg",
+    caption: "Exotic destinations",
+    alt: "destination"
+  },
+  {
+    url: "https://cdn.pixabay.com/photo/2020/07/23/21/34/arc-de-triomphe-5432392_1280.jpg",
+    caption: "Top Bali trips",
+    alt: "destination"
+  },
+  {
+    url: "https://cdn.pixabay.com/photo/2020/11/19/15/32/sculpture-5758884_1280.jpg",
+    caption: "Cultural highlights",
+    alt: "destination"
+  }
+];
+
   return (
  <div className="overflow-hidden">
      <div className="w-screen  h-screen overflow-hidden relative">
