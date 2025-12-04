@@ -45,7 +45,7 @@ const Gallery = () => {
       loop
       muted
       playsInline
-      className="w-[500px] h-[500px]  object-fill"
+      className="w-[500px] h-[500px]  object-cover"
     />
   ))}
 </div>
